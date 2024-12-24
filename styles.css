@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: aqua;
+    height: 30px; /* Ajusta la altura del div */ 
+    border: 2px solid black; /* Añade un borde para visualizar el div */
+}
+
+.idiomas {
+    background-color: blue;
+    height: 30px;
+    width: 50px;
+    margin: 0;
+    position: absolute;
+    border-left: 1px solid black;
+    right: 2px;
+}
+
+.opciones {
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    margin: 0;
+    position: absolute;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    right: 53px;
+}
+
+.proyect1 {
+    background-color: violet;
+    margin: 10px;
+    height:500px;
+    display: flex;
+    position: relative;
+}
+
+.text {
+    background-color: blue;
+    margin-left: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.image {
+    background-image: url('https://www.solofondos.com/wp-content/uploads/2015/12/Fondos-de-jardines-para-Photoshop.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 250px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+}
+
+.lenguajes {
+    background-color: chartreuse;
+    position: absolute;
+    margin-left: 10px;
+}
+
